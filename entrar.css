@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://via.placeholder.com/1920x1080/87CEFA/FFFFFF?text=Fondo'); /* Cambia esta URL por la de tu imagen de fondo */
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+}
+
+#app {text-align: center;}
+.frame { background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);}
+h1 { color: #007bff;}
+.btnPerfil { margin: 10px; padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;}
+.btnPerfil:hover { background-color: #0056b3; border: 2px solid black;}
+
+.perfil-img {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    cursor: pointer;
+    transition: transform 0.2s; /* Añade transición suave */
+    box-shadow: 10px 10xp 20px black;
+}
+
+.perfil-img:hover {
+    transform: scale(1.1); /* Efecto de hover al seleccionar la imagen */
+    box-shadow: 10px 10xp 20px black;
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las imágenes se acomoden en múltiples filas */
+    justify-content: center; /* Centra las imágenes */
+}
+
+
+.perfiles_jugar{ display: flex; justify-content: space-evenly;}
+.text_vamos{ font-size: 30px; color: #007bff;}
+.perfiles_jugar{ background-color: white; display: flex; justify-items: center;
+}
+#btnJugar{
+    background-color: white;
+    border: 2px solid   wheat;
+    border-radius: 30px;
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+}
+#btnJugar:hover{ box-shadow: 2px 2px 5px  #007bff;}
